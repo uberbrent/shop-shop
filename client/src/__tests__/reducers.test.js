@@ -24,7 +24,7 @@ const initialState = {
         {
             _id: '2',
             name: 'Bread',
-            purcahseQuantity: 2
+            purchaseQuantity: 2
         }
     ],
     cartOpen: false
@@ -111,7 +111,7 @@ test('UPDATE_CART_QUANTITY', () => {
   
     expect(newState.cartOpen).toBe(true);
     expect(newState.cart[0].purchaseQuantity).toBe(3);
-    expect(newState.cart[1].purchaseQuantity).toBe(3);
+    expect(newState.cart[1].purchaseQuantity).toBe(2);
   
     expect(initialState.cartOpen).toBe(false);
   });
