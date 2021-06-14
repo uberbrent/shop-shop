@@ -36,7 +36,7 @@
 
   ## Features
     
-  Budgeting application showcasing use of indexDB, and service worker functionality.  
+  An example storefront, utilizing Stripe as a checkout extension and GraphQL for the back-end database.
 
   ## Contributing
   
